@@ -27,12 +27,18 @@
 
 
 
-const table=document.getElementById('mytable')
+const table=document.getElementById('tr')
 table.addEventListener('dblclick',() => {
-    
+    tr.innerHTML="Double click!"
 
 });
 
+
+
+const title=document.getElementById('title')
+title.addEventListener('dblclick',()=>{
+    title.innerHTML="double click!"
+})
 ////
 // const li=document.getElementById('firstimg')
 // li.addEventListener('dblclick',()=>{
@@ -54,6 +60,83 @@ table.addEventListener('dblclick',() => {
 // })
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ////
 
 
@@ -64,7 +147,7 @@ table.addEventListener('dblclick',() => {
 
 
 
-document.addEventListener('keyup',(event)=>{
-     console.log('кнопка,которую вы отпустили:'+event.key);
- })
+// document.addEventListener('keyup',(event)=>{
+//      console.log('кнопка,которую вы отпустили:'+event.key);
+//  })
     
